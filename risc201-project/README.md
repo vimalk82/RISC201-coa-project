@@ -133,10 +133,10 @@ At the `risc201-dbg` prompt:
 
 | Member | Responsibility | Files |
 |---|---|---|
-| Person 1 | ISA, two-pass assembler, disassembler | `isa.py`, `assembler.py`, `disassembler.py` |
-| Person 2 | Macro preprocessor, memory subsystem, exception hierarchy, ASCII stack visualizer | `preprocessor.py`, `exceptions.py`, `memory.py`, `stack_viz.py` |
-| Person 3 | Horizontal/vertical control stores, micro-sequencer, interactive CLI debugger | `microcode_h.py`, `microcode_v.py`, `sequencer.py`, `cli.py` |
-| Person 4 | Parameterized 4/6-stage pipeline datapath, RAW stalling, branch flushing | `pipeline.py` |
-| Person 5 | Multi-algorithm ALU, benchmark test suite, automated evaluation runner | `alu.py`, `tests/*.asm`, `evaluate.py` |
+| Ritesh | ISA, two-pass assembler, disassembler | `isa.py`, `assembler.py`, `disassembler.py` |
+| Vansh Khureja | Macro preprocessor, memory subsystem, exception hierarchy | `preprocessor.py`, `exceptions.py`, `memory.py` |
+| Aditya | Horizontal/vertical control stores, micro-sequencer, interactive CLI debugger | `microcode_h.py`, `microcode_v.py`, `sequencer.py`, `cli.py` |
+| Yogenra Nirala | Parameterized 4/6-stage pipeline datapath, RAW stalling, branch flushing, ASCII stack visualizer | `pipeline.py`, `stack_viz.py` |
+| Vimal Kumar | Multi-algorithm ALU, benchmark test suite, automated evaluation runner | `alu.py`, `tests/*.asm`, `evaluate.py` |
 
 > Replace "Person 1" to "Person 5" with your team members' real names before submitting.
