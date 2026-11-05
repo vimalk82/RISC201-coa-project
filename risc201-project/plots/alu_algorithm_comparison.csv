@@ -1,0 +1,10 @@
+Benchmark,ALU_Configuration,Total_ALU_HW_SubCycles,Multiplier_Active_Additions
+alu_intensive,Baseline (Ripple + ShiftAdd + Restoring),264,14
+alu_intensive,Mid-Tier (CLA + Booth-R2 + Restoring),264,14
+alu_intensive,Optimized (CLA + Booth-R4 + Goldschmidt),86,12
+factorial_5,Baseline (Ripple + ShiftAdd + Restoring),1282,6
+factorial_5,Mid-Tier (CLA + Booth-R2 + Restoring),418,10
+factorial_5,Optimized (CLA + Booth-R4 + Goldschmidt),354,7
+bubble_sort,Baseline (Ripple + ShiftAdd + Restoring),2735,0
+bubble_sort,Mid-Tier (CLA + Booth-R2 + Restoring),695,0
+bubble_sort,Optimized (CLA + Booth-R4 + Goldschmidt),695,0

@@ -1,0 +1,13 @@
+Benchmark,Pipeline,Cycles,Instr_Retired,CPI,RAW_Stalls,Branch_Flushes,Flushed_Instrs
+sum_loop,4-Stage,86,44,1.955,11,9,18
+sum_loop,6-Stage,108,44,2.455,22,9,18
+factorial_5,4-Stage,98,48,2.042,4,14,28
+factorial_5,6-Stage,122,48,2.542,12,14,41
+fibonacci_10,4-Stage,96,59,1.627,9,8,16
+fibonacci_10,6-Stage,125,59,2.119,28,8,16
+array_sum,4-Stage,77,45,1.711,16,4,4
+array_sum,6-Stage,99,45,2.2,32,4,4
+bubble_sort,4-Stage,251,145,1.731,33,23,43
+bubble_sort,6-Stage,309,145,2.131,66,23,63
+alu_intensive,4-Stage,29,17,1.706,8,0,0
+alu_intensive,6-Stage,39,17,2.294,16,0,0

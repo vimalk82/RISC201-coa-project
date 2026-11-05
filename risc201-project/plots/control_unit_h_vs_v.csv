@@ -1,0 +1,5 @@
+Pipeline,Control_Mode,Microwords,Word_Width_Bits,Total_Store_Bits,Total_Store_Bytes,Decoder_Gate_Levels
+4stage,Horizontal,84,29,2436,305,0
+4stage,Vertical,84,18,1512,189,2
+6stage,Horizontal,126,29,3654,457,0
+6stage,Vertical,126,18,2268,284,2
